@@ -11,11 +11,15 @@ public class Lab5 {
         else if(f > 0){
             if( f > 1000000)                
                 System.out.print("Large ");
+            else if(f < 10)
+                System.out.print("Small ");
             System.out.println("Positive");
         }
         else{
-            if( f < 1000000)                
+            if( f < -1000000)                
                 System.out.print("Large ");
+            else if(f > -10)
+                System.out.print("Small ");
             System.out.println("Negative");
         }
     }
