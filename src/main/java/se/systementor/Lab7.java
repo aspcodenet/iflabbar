@@ -21,9 +21,5 @@ public class Lab7 {
             System.out.println("Du kan köpa en stor hamburgare och en pommes frites.");
         else if( money > 60 || ( money >= 50 && money <= 60 && rabatt ) )            
             System.out.println("Du kan köpa ett meal med dryck");
-        }
-
-
-        
     }
 }
