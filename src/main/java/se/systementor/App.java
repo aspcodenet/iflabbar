@@ -12,8 +12,8 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        Lab5 lab5 = new Lab5();
-        lab5.Execute();
+        Lab7 lab7 = new Lab7();
+        lab7.execute();
 
 
 
